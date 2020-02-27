@@ -9,7 +9,7 @@ weatherForm.addEventListener("submit", (e) => {
   e.preventDefault(); // To prevent page from reloading on submission
 
   const location = input.value;
-  const url = "http://localhost:3000/weather?address=" + location;
+  const url = "/weather?address=" + location;
 
   messageOne.textContent = "Loading...";
   messageTwo.textContent = "";

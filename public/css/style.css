@@ -33,6 +33,11 @@ h1 {
   margin-bottom: 16px;
 }
 
+a {
+  color: steelblue;
+  text-decoration: none;
+}
+
 header a {
   color: #888888;
   margin-right: 16px;
